@@ -2,27 +2,31 @@ import CustomImage from "./CustomImage"
 
 export default function HeroSection(){
     const images = [
-        "/img/gallery/img_1.jpg",
-        "/img/gallery/img_2.jpg",
-        "/img/gallery/img_3.jpg",
-        "/img/gallery/img_4.jpg",
-        "/img/gallery/img_5.jpg",
-        "/img/gallery/img_6.jpg",
-        "/img/gallery/img_7.jpg",
-        "/img/gallery/img_8.jpg",
-        "/img/gallery/img_9.jpg"
-    ]
+        "/img/gallery/SwissRole.jpeg",
+        "/img/gallery/hotCrossBun.jpeg",
+        "/img/gallery/FruitCake.jpeg",
+        "/img/gallery/Focaccia.jpeg",
+        "/img/gallery/CinnamonBuns.jpeg",
+        "/img/gallery/ChocolateCreameFingures.jpeg",
+        "/img/gallery/Bun.jpeg",
+        "/img/gallery/BreadedBread.jpeg",
+        "/img/gallery/BlackForestCake.jpeg"
+    ];
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/img/Resume/Rekha_Upadhyay_Resume.pdf';  
+        link.download = 'Rekha_Upadhyay_Resume.pdf';
+        link.click();
+      };
     return (
         <div className="section hero">
             <div className="col typography">
-                <h1 className="title">What Are We About</h1>
-                <p className="info">FoodiesHub is a place where you can please your soul and tummy with delicious food recepies of all cuisine. And our service is absolutely free. So start exploring now.</p>
-                <button className="btn">explore now</button>
+                <h1 className="title">About Me</h1>
+                <p className="info">Enthusiastic baker graduating in April 2025 with a Diploma in Bakery and Patisserie from <b>Symbiosis School of Culinary Arts</b>. Experienced in crafting artisan breads, pastries, cakes, tarts, and cookies. Strong foundation in bakery theory, practical techniques, food safety, and equipment maintenance. Skilled in food costing and recipe development. Motivated to bring creativity, attention to detail, and time management to a professional bakery. Seeking an entry-level baker role to grow and contribute to a dynamic team.</p>
+                <button className="btn" onClick={handleDownload}>Hire Me</button>
             </div>
             <div className="col gallery">
-                { images.map((src, index) => (
-                    <CustomImage key={index} imgSrc={src} pt={"90%"} />
-                )) }
+                <img src={"/img/top-chiefs/rekha.jpeg"} alt="" className="img" id="main-chef-image"/>
             </div>
         </div>
     )

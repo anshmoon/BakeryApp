@@ -31,7 +31,10 @@ a{
 img{
     object-fit: cover;
 }
-
+#main-chef-image{
+    height: 80vh;
+    border-radius: 50%;
+}
 .btn{
     border: none;
     outline: none;

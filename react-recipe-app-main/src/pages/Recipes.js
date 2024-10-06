@@ -4,65 +4,50 @@ import RecipeCard from "../components/RecipeCard"
 export default function Recipes(){
     const recipes = [
         {
-            title: "Chicken Pan Pizza",
-            image: "/img/gallery/img_1.jpg",
-            authorImg: "/img/top-chiefs/img_1.jpg",
+            title: "Swiss Role",
+            image: "/img/gallery/SwissRole.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         }, 
         {
-            title: "Spaghetti and Meatballs",
-            image: "/img/gallery/img_4.jpg",
-            authorImg: "/img/top-chiefs/img_2.jpg",
+            title: "Hot Cross Bun",
+            image: "/img/gallery/hotCrossBun.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         },
         {
-            title: "American Cheese Burger",
-            image: "/img/gallery/img_5.jpg",
-            authorImg: "/img/top-chiefs/img_3.jpg",
+            title: "Fruit Cake",
+            image: "/img/gallery/FruitCake.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         },
         {
-            title: "Mutton Biriyani",
-            image: "/img/gallery/img_6.jpg",
-            authorImg: "/img/top-chiefs/img_5.jpg",
+            title: "Focaccia",
+            image: "/img/gallery/Focaccia.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         },
         {
-            title: "Japanese Sushi",
-            image: "/img/gallery/img_10.jpg",
-            authorImg: "/img/top-chiefs/img_6.jpg",
+            title: "Cinnamon Buns",
+            image: "/img/gallery/CinnamonBuns.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         },
         {
-            title: "Chicken Pan Pizza",
-            image: "/img/gallery/img_1.jpg",
-            authorImg: "/img/top-chiefs/img_1.jpg",
+            title: "Chocolate Creame Fingures",
+            image: "/img/gallery/ChocolateCreameFingures.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         }, 
         {
-            title: "Spaghetti and Meatballs",
-            image: "/img/gallery/img_4.jpg",
-            authorImg: "/img/top-chiefs/img_2.jpg",
+            title: "Burger Bun",
+            image: "/img/gallery/Bun.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         },
         {
-            title: "American Cheese Burger",
-            image: "/img/gallery/img_5.jpg",
-            authorImg: "/img/top-chiefs/img_3.jpg",
+            title: "Braided Bread",
+            image: "/img/gallery/BreadedBread.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         },
         {
-            title: "Mutton Biriyani",
-            image: "/img/gallery/img_6.jpg",
-            authorImg: "/img/top-chiefs/img_5.jpg",
+            title: "Black Forest Cake",
+            image: "/img/gallery/BlackForestCake.jpeg",
+            authorImg: "/img/top-chiefs/rekha.jpeg",
         },
-        {
-            title: "Japanese Sushi",
-            image: "/img/gallery/img_10.jpg",
-            authorImg: "/img/top-chiefs/img_6.jpg",
-        },
-        {
-            title: "American Cheese Burger",
-            image: "/img/gallery/img_5.jpg",
-            authorImg: "/img/top-chiefs/img_3.jpg",
-        },
-        {
-            title: "Mutton Biriyani",
-            image: "/img/gallery/img_6.jpg",
-            authorImg: "/img/top-chiefs/img_5.jpg",
-        }
     ].sort(() => Math.random() - 0.5)
 
     return (
