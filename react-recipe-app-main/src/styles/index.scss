@@ -31,10 +31,6 @@ a{
 img{
     object-fit: cover;
 }
-#main-chef-image{
-    height: 80vh;
-    border-radius: 50%;
-}
 .btn{
     border: none;
     outline: none;
@@ -49,8 +45,10 @@ img{
     box-shadow: 0 2px 6px var(--shadow-color);
     &:hover{
         box-shadow: 0 1px 3px var(--shadow-color);
+        background-color:#0A0A0A;
     }
 }
+
 
 .custom-image{
     background-color: red;
@@ -220,4 +218,5 @@ img{
     .container{
         padding-inline: 3vw;
     }
+   
 }

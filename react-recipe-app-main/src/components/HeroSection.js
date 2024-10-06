@@ -26,7 +26,11 @@ export default function HeroSection(){
                 <button className="btn" onClick={handleDownload}>Hire Me</button>
             </div>
             <div className="col gallery">
-                <img src={"/img/top-chiefs/rekha.jpeg"} alt="" className="img" id="main-chef-image"/>
+                <div id="main-chef-image">
+                <img src={"/img/top-chiefs/rekhaLogo.png"} alt="" className="img"/>
+                </div>
+                
+                
             </div>
         </div>
     )
