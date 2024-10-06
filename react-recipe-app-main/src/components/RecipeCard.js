@@ -6,7 +6,7 @@ import Popup from "./Popup";
 export default function RecipeCard({recipe}){
     let text="Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
     const sendEmail = (dishName) => {
-        const email = 'rekhachoubey42.com'; 
+        const email = 'rekhachoubey42@gmail.com'; 
         const subject = 'Baking Order'; 
         const body = `i want to order ${dishName}`;
     
